@@ -1,0 +1,137 @@
+.contact__content {
+  display: grid;
+  grid-template-rows: 1fr minmax(38px, auto);
+  row-gap: 52px;
+
+  .contact__body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    & > *:not(:last-child) {
+      margin-bottom: 20px;
+    }
+
+    .contact__leftcolumn {
+      max-width: 380px;
+
+
+      .contact__logoblock {
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+        & > *{
+          margin-right: 18px;
+        }
+
+        .contact__logo {
+          background: linear-gradient(238.08deg, #A248D9 -25.15%, #ECCDFF 127.57%);
+          font-weight: 600;
+          font-size: 25px;
+          line-height: calc(37 / 25 * 100%);
+          color: #FFFFFF;
+          width: 49px;
+          height: 49px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .contact__name {
+          font-weight: 600;
+          font-size: 25px;
+          line-height: calc(37 / 25 * 100%);
+          letter-spacing: 0.05em;
+          color: #1C1B1E;
+
+
+        }
+      }
+
+      .contact__text {
+        font-size: 16px;
+        line-height: calc(24 / 16 * 100%);
+        letter-spacing: 0.03em;
+        color: #1C1B1E;
+        opacity: 0.6;
+
+      }
+    }
+
+    .contact__rightcolumn {
+      display: flex;
+      flex-wrap: wrap;
+
+
+      .contact__list{
+        margin-right: 70px;
+        @media(min-width: 1099px) {
+          &:not(:last-child) {
+            margin-right: 151px;
+            margin-bottom: 20px;
+          }
+        }
+
+
+        list-style: none;
+
+        .list__item {
+          font-size: 14px;
+          line-height: calc(21 / 14 * 100%);
+          letter-spacing: 0.02em;
+          opacity: 0.7;
+
+          &:not(:last-child) {
+            margin-bottom: 13px;
+          }
+
+          &:first-child {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: calc(24 / 16 * 100%);
+            letter-spacing: 0.02em;
+            color: #000000;
+            margin-bottom: 26px;
+          }
+
+          .list__link {
+            color: #000000;
+          }
+        }
+      }
+    }
+  }
+
+  .contact__footer {
+    display: flex;
+    align-items: center;
+
+    .footer__list {
+      display: flex;
+      align-items: center;
+
+      .footer__item {
+
+        &:not(:last-child) {
+          margin-right: 5px;
+
+        }
+
+        .footer__link {
+          font-size: 14px;
+          line-height: calc(21 / 14 * 100%);
+          letter-spacing: 0.02em;
+          color: #000000;
+        }
+      }
+
+      .circle {
+        background: #1C1B1E;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+      }
+    }
+  }
+}

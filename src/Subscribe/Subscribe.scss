@@ -1,0 +1,103 @@
+.subscribe__content {
+  padding: 114px 0 132px 0;
+
+  .subscribe__body {
+    display: grid;
+    justify-items: center;
+
+    .subscribe__text {
+      margin-bottom: 49px;
+      text-align: center;
+
+      & > * {
+        margin-bottom: 20px;
+      }
+
+      .subscribe__title {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 1.5;
+        color: #FFFFFF;
+      }
+
+      .subscribe__subtitle {
+        font-size: 16px;
+        line-height: calc(24 / 16 * 100%);
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.7;
+      }
+    }
+
+
+    .subscribe__form {
+      position: relative;
+      z-index: 100000;
+      display: grid;
+      align-items: center;
+      min-height: 44px;
+      grid-template: 1fr/3fr 1fr;
+      .subscribe__input {
+        color: #FFFFFF;
+        letter-spacing: 1px;
+        position: relative;
+        z-index: 100000;
+        padding-left: 25px;
+        background: none;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 5px;
+        height: 100%;
+
+      }
+
+      .subscribe__button {
+        min-height: 47px;
+        padding: 5px 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(265.37deg, #9224D6 -49.74%, #BD87DE 116.53%);
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(21 / 14 * 100%);
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .subscribe__banner {
+
+
+    .banner__carpet {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #2d0646;
+      z-index: -4;
+      border-radius: 15px;
+
+    }
+
+    .banner__maskgroup {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -4;
+    }
+  }
+}
