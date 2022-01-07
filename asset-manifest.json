@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/podcast/static/css/main.3d5c1e62.css",
+    "main.js": "/podcast/static/js/main.00eab75a.js",
+    "static/js/787.75adb9f1.chunk.js": "/podcast/static/js/787.75adb9f1.chunk.js",
+    "static/media/Mask_Group.png": "/podcast/static/media/Mask_Group.4f7d6189bc2ddf4e2d9f.png",
+    "static/media/image.jpg": "/podcast/static/media/image.51384c5795b4e3b5af6c.jpg",
+    "static/media/buttomright.png": "/podcast/static/media/buttomright.d72b8c8b6df424d92b37.png",
+    "static/media/topleft.png": "/podcast/static/media/topleft.ed4a6ce272e9b561b0f1.png",
+    "static/media/episod6.jpg": "/podcast/static/media/episod6.0a76726d26aeb3d94cec.jpg",
+    "static/media/episod3.jpg": "/podcast/static/media/episod3.010eb550e255fdd9900c.jpg",
+    "static/media/topic1.jpg": "/podcast/static/media/topic1.6f0a6447dcdcdaab2e6c.jpg",
+    "static/media/topic3.jpg": "/podcast/static/media/topic3.72a6188144d3bc4c2014.jpg",
+    "static/media/episod4.jpg": "/podcast/static/media/episod4.2357cca840208134fc9a.jpg",
+    "static/media/topic2.jpg": "/podcast/static/media/topic2.fd8e4341e0387a80d1ec.jpg",
+    "static/media/episod1.jpg": "/podcast/static/media/episod1.1f478e6a15ae7ed7b029.jpg",
+    "static/media/episod2.jpg": "/podcast/static/media/episod2.e18f0fb795b5f15934c1.jpg",
+    "static/media/buttomleft.png": "/podcast/static/media/buttomleft.fbf19f932ad314aa0854.png",
+    "static/media/episod5.jpg": "/podcast/static/media/episod5.5ca0ae6c6d7fefcdb1c2.jpg",
+    "static/media/topright.png": "/podcast/static/media/topright.a721b1ded52aec274103.png",
+    "index.html": "/podcast/index.html",
+    "static/media/access_time.svg": "/podcast/static/media/access_time.4c6db1acfef1ac42bb12f72a677ac246.svg",
+    "static/media/playicon.svg": "/podcast/static/media/playicon.e4c66ed2b5edc52cc610922dc9f969bb.svg",
+    "main.3d5c1e62.css.map": "/podcast/static/css/main.3d5c1e62.css.map",
+    "main.00eab75a.js.map": "/podcast/static/js/main.00eab75a.js.map",
+    "787.75adb9f1.chunk.js.map": "/podcast/static/js/787.75adb9f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d5c1e62.css",
+    "static/js/main.00eab75a.js"
+  ]
+}
