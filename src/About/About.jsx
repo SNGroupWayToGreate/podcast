@@ -2,6 +2,7 @@ import React from 'react'
 import './About.scss'
 import image from '../images/about/image.jpg'
 
+
 export const About = () => {
     return (
         <div className='about__content'>

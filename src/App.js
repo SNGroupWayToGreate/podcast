@@ -14,12 +14,21 @@ import {Subscribe} from "./Subscribe/subscribe";
 import {Contact} from "./Contact/Contact";
 import {useEffect, useRef} from "react";
 import {gsap} from "gsap";
+import {TimelineLite} from "gsap";
 
 
 function App() {
     const header=useRef()
+    let tl = new TimelineLite();
     useEffect(()=>{
-        gsap.from('.episodes__item',{duration:1,opacity:0,stagger:0.4,ease:'linear',y:30,x:10})
+        gsap.from('.menu__item',{duration:1,opacity:0,ease:'bounch',y:10})
+        tl
+            .from('.home__title ',2,{opacity:0,stagger:0.4,ease:'linear',y:30,x:10},'-=1')
+            .from('.home__buttons',2,{opacity:0,stagger:0.4,ease:'linear',y:30,x:10},'-=1')
+            .from('.home__topleft',2,{scale:0,opacity:0,stagger:0.4,ease:'linear'},'-=2')
+            .from('.home__topright',2,{scale:0,opacity:0,stagger:0.4,ease:'linear'},'-=2')
+            .from('.home__buttomright',2,{scale:0,opacity:0,stagger:0.4,ease:'linear'},'-=2')
+            .from('.home__buttomleft',2,{scale:0,opacity:0,stagger:0.4,ease:'linear'},'-=2')
     })
     return (
         <div className='wrapper'>
