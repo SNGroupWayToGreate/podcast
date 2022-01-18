@@ -59,7 +59,7 @@ export const Contact = () => {
                            dsgnpod@gmail.com
                         </ul>
                         <ul className="list__item">
-                                28 Cambridge Avenue
+                                28 Cambridge Avenue<br/>
                                 San Fransisco 3426
                         </ul>
                         <ul className="list__item">

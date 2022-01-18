@@ -407,8 +407,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    @media (max-width: 450px) {
+      justify-content: center;
+    }
+    
 
     .footer__text {
+      &:first-child{
+        margin-right: 20px;
+      }
       font-size: 14px;
       line-height: calc(21 / 14 * 100%);
       letter-spacing: 0.02em;

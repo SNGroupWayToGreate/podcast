@@ -6,7 +6,7 @@ import image from '../images/about/image.jpg'
 export const About = () => {
     return (
         <div className='about__content'>
-            <div className="about__image">
+            <div className="about__image ibg">
                 <img src={image} alt=""/>
             </div>
             <div className="about__body body">
