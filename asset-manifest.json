@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/podcast/static/css/main.5129ee7d.css",
-    "main.js": "/podcast/static/js/main.8c35edc3.js",
+    "main.css": "/podcast/static/css/main.5d58eb80.css",
+    "main.js": "/podcast/static/js/main.c155f689.js",
     "static/js/787.75adb9f1.chunk.js": "/podcast/static/js/787.75adb9f1.chunk.js",
     "static/media/Mask_Group.png": "/podcast/static/media/Mask_Group.4f7d6189bc2ddf4e2d9f.png",
     "static/media/image.jpg": "/podcast/static/media/image.51384c5795b4e3b5af6c.jpg",
@@ -21,12 +21,12 @@
     "index.html": "/podcast/index.html",
     "static/media/access_time.svg": "/podcast/static/media/access_time.4c6db1acfef1ac42bb12f72a677ac246.svg",
     "static/media/playicon.svg": "/podcast/static/media/playicon.e4c66ed2b5edc52cc610922dc9f969bb.svg",
-    "main.5129ee7d.css.map": "/podcast/static/css/main.5129ee7d.css.map",
-    "main.8c35edc3.js.map": "/podcast/static/js/main.8c35edc3.js.map",
+    "main.5d58eb80.css.map": "/podcast/static/css/main.5d58eb80.css.map",
+    "main.c155f689.js.map": "/podcast/static/js/main.c155f689.js.map",
     "787.75adb9f1.chunk.js.map": "/podcast/static/js/787.75adb9f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5129ee7d.css",
-    "static/js/main.8c35edc3.js"
+    "static/css/main.5d58eb80.css",
+    "static/js/main.c155f689.js"
   ]
 }
